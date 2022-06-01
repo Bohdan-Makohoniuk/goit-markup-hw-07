@@ -19,37 +19,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="page">
-    <!----------------------------navigation---------------------------->
+    <!----------------------------Header---------------------------->
     <header class="header">
       <div class="container heder-container">
         <nav class="main-nav">
-          <a class="logo slide-bck-center" href="./index.html">
-            Web<span class="logo-nav">Studio</span></a
+          <a class="main-nav__logo" href="./index.html">
+            Web<span class="main-nav__logo-accent">Studio</span></a
           >
           <ul class="site-nav">
-            <li class="item">
-              <a class="link current" href="./index.html">Студия</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link current" href="./index.html">Студия</a>
             </li>
-            <li class="item">
-              <a class="link" href="./portfolio.html">Портфолио</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item">
-              <a class="link" href="">Контакты</a>
+            <li class="site-nav__item">
+              <a class="site-nav__link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
 
         <ul class="auth-nav">
-          <li class="item">
-            <a class="list" href="mailto:info@devstudio.com">
-              <svg class="contact-icon" width="16" height="12">
+          <li class="auth-nav__item">
+            <a class="auth-nav__link" href="mailto:info@devstudio.com">
+              <svg class="auth-nav__icon" width="16" height="12">
                 <use href="./images/sprite.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="list" href="tel:380961111111">
-              <svg class="contact-icon" width="10" height="16">
+          <li class="auth-nav__item">
+            <a class="auth-nav__link" href="tel:380961111111">
+              <svg class="auth-nav__icon" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -123,46 +123,46 @@
         <div class="container">
           <h2 class="visually-hidden">наши особенности</h2>
           <ul class="section-list">
-            <li>
-              <div class="specifics-card">
-                <svg class="specifics-img" width="70" height="70">
+            <li class="section-list__item">
+              <div class="section-icon">
+                <svg class="" width="70" height="70">
                   <use href="./images/sprite.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="section-title">Внимание к деталям</h3>
+              <h3 class="section-list-title">Внимание к деталям</h3>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li>
-              <div class="specifics-card">
-                <svg class="specifics-img" width="70" height="70">
+            <li class="section-list__item">
+              <div class="section-icon">
+                <svg class="" width="70" height="70">
                   <use href="./images/sprite.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="section-title">Пунктуальность</h3>
+              <h3 class="section-list-title">Пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
-              <div class="specifics-card">
-                <svg class="specifics-img" width="70" height="70">
+            <li class="section-list__item">
+              <div class="section-icon">
+                <svg class="" width="70" height="70">
                   <use href="./images/sprite.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="section-title">Планирование</h3>
+              <h3 class="section-list-title">Планирование</h3>
               <p class="text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
-            </li>
+            </li class="section-list__item">
             <li>
-              <div class="specifics-card">
-                <svg class="specifics-img" width="70" height="70">
+              <div class="section-icon">
+                <svg class="" width="70" height="70">
                   <use href="./images/sprite.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="section-title">Современные технологии</h3>
+              <h3 class="section-list-title">Современные технологии</h3>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
@@ -176,32 +176,32 @@
           <h2 class="title">Чем мы занимаемся</h2>
 
           <ul class="item-gallery">
-            <li class="li-gallery">
+            <li class="item-gallery__image">
               <img
                 src="./images/what-are-we-doing/box-1.jpg"
                 alt="внимательная работа"
                 width="370"
                 height="294"
               />
-              <p class="caption">Десктопные приложения</p>
+              <p class="item-gallery__caption">Десктопные приложения</p>
             </li>
-            <li class="li-gallery">
+            <li class="item-gallery__image">
               <img
                 src="./images/what-are-we-doing/box-2.jpg"
                 alt="планирование"
                 width="370"
                 height="294"
               />
-              <p class="caption">Мобильные приложения</p>
+              <p class="item-gallery__caption">Мобильные приложения</p>
             </li>
-            <li class="li-gallery">
+            <li class="item-gallery__image">
               <img
                 src="./images/what-are-we-doing/box-3.jpg"
                 alt="Современные технологии"
                 width="370"
                 height="294"
               />
-              <p class="caption">Дизайнерские решения</p>
+              <p class="item-gallery__caption">Дизайнерские решения</p>
             </li>
           </ul>
         </div>

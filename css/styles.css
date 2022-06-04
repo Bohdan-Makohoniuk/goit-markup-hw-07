@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-calor: #757575;
   --title-text-calor: #212121;
   --accent-color: #2196f3;
@@ -14,8 +14,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-h1,
+} */
+/* h1,
 h2,
 h3,
 h4,
@@ -31,8 +31,8 @@ ul {
 img {
   display: block;
   max-width: 100%;
-}
-button {
+} */
+/* button {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -40,8 +40,8 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-calor);
-}
-.visually-hidden {
+} */
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -53,25 +53,25 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-.section {
+} */
+/* .section {
   margin-left: auto;
   margin-right: auto;
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.container {
+} */
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 .title {
   color: var(--title-text-calor);
 }
 /*-----------------------------------Header-----------------------------*/
-.header {
+/* .header {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -80,13 +80,13 @@ button {
 .heder-container {
   display: flex;
   align-items: center;
-}
+} */
 /*------------------------------------logo-----------------------------*/
-.main-nav {
+/* .main-nav {
   display: flex;
   align-items: center;
 }
-.logo {
+.main-nav__logo {
   margin-right: 90px;
 
   color: var(--accent-color);
@@ -98,7 +98,7 @@ button {
 }
 .logo-accent {
   color: var(--title-text-calor);
-}
+} */
 /*------------------------------site-nav list--------------------------*/
 .site-nav,
 .auth-nav {
@@ -355,6 +355,7 @@ button {
 .user-form:hover,
 .user-form:focus {
   border-color: var(--accent-color);
+  outline: transparent;
 }
 .user-form:hover + .form-icon,
 .user-form:focus + .form-icon {
@@ -425,6 +426,7 @@ button {
   width: 16px;
   height: 15px;
   margin-right: 7px;
+  fill: var(--icon-last);
 
   outline: 2px solid var(--accent-color);
   outline-offset: -2px;
@@ -682,14 +684,19 @@ button {
   color: var(--primary-white-color);
 }
 
-.logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
+
+  color: var(--accent-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
 .footer__logo--accent {
-  margin-right: 0px;
-
   color: var(--primary-white-color);
 }
 
